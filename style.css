@@ -4,7 +4,7 @@ body {
     color: white;
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 60px;
   }
   
   .container {
@@ -30,7 +30,7 @@ body {
     flex-wrap: wrap;
     margin-top: 20px;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
   }
   
   .card {
