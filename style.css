@@ -15,12 +15,12 @@ body {
   input {
     padding: 20px;
     width: 70%;
-    font-size: 16px;
+    font-size: 17px;
   }
   
   button {
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 15px;
     margin-left: 11px;
     cursor: pointer;
   }
