@@ -20,12 +20,12 @@ const showMovies = (data) => {
     const imagePath =
       result.poster_path === null
         ? "https://via.placeholder.com/300x450?text=No+Image"
-        : IMGPATH + result.poster_path;
+        :IMGPATH + result.poster_path;
 
     const box = document.createElement("div");
     box.classList.add("box");
 
-    box.innerHTML = `
+    box.innerHTML =`
       <img src="${imagePath}" alt="${result.original_title}" />
       <div class="overlay">
         <div class="title"> 
